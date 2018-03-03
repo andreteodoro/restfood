@@ -12,7 +12,7 @@ DISHES_INDEX = 'dishes'
 def retry_on_connectionerror(exc):
     return isinstance(exc, requests.exceptions.ConnectionError)
 
-@retry(retry_on_exception=retry_on_connectionerror, wait_fixed=10000, stop_max_attempt_number=20)
+@retry(retry_on_exception=retry_on_connectionerror, wait_fixed=50000, stop_max_attempt_number=10)
 def check_if_elasticsearch_is_up(es):
     res = requests.get('http://elasticsearch.local:9200')
     if res.status_code == 200:
@@ -37,14 +37,9 @@ def create_indexes(es):
     print(" response: '%s'" % (res))
 
 def bulk_indexes(es):
-    print("bulk indexing restaurants...")
-    restaurants_data = open('restaurants-data','r') 
-    res = es.bulk(index = RESTAURANTS_INDEX, body = restaurants_data.read())
-    print(" response: '%s'" % (res))
-
-    print("bulk indexing dishes...")
-    dishes_data = open('dishes-data','r') 
-    res = es.bulk(index = DISHES_INDEX, body = dishes_data.read())
+    print("bulk indexing restaurants and dishes...")
+    index_data = open('index-data','r')
+    res = es.bulk(body = index_data.read())
     print(" response: '%s'" % (res))
 
 def sanity_text(es):

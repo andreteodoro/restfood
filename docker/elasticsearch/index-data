@@ -1,19 +1,38 @@
+//China in Box
+{"index":{"_index":"restaurants","_type":"restaurant","_id":1}}
+{"id":1,"name":"China in Box","description":"Comida chineza","food_type":"CHI","is_enabled":true,"is_online":true,"delivery_fee":5,"delivery_time":35,"evaluation_rate":4.5}
 {"index":{"_index":"dishes","_type":"dish","_id":20}}
 {"id":20,"name":"Hot Roll - Kani","description":"Enrolado empanado com Kani","is_enabled":true,"price":7,"restaurant_name":"China in Box","restaurant_id":1}
 {"index":{"_index":"dishes","_type":"dish","_id":21}}
 {"id":21,"name":"Camarão Empanado","description":"Camarão empanado e sequinho.","is_enabled":true,"price":35,"restaurant_name":"China in Box","restaurant_id":1}
+
+//Pizza Hut
+{"index":{"_index":"restaurants","_type":"restaurant","_id":2}}
+{"id":2,"name":"Pizza Hut","description":"Pizza rápida","food_type":"PIZ","is_enabled":true,"is_online":true,"delivery_fee":7,"delivery_time":45,"evaluation_rate":3.5}
 {"index":{"_index":"dishes","_type":"dish","_id":22}}
 {"id":22,"name":"Pizza Calabresa","description":"Pizza de Calabresa.","is_enabled":true,"price":28,"restaurant_name":"Pizza Hut","restaurant_id":2}
 {"index":{"_index":"dishes","_type":"dish","_id":23}}
 {"id":23,"name":"Pizza Mussarela","description":"Pizza de Mussarela.","is_enabled":true,"price":28,"restaurant_name":"Pizza Hut","restaurant_id":2}
+
+//Monte Belo
+{"index":{"_index":"restaurants","_type":"restaurant","_id":3}}
+{"id":3,"name":"Monte Belo","description":"Belo rodízio","food_type":"PIZ","is_enabled":true,"is_online":true,"delivery_fee":10,"delivery_time":55,"evaluation_rate":4.0}
 {"index":{"_index":"dishes","_type":"dish","_id":24}}
 {"id":24,"name":"Pizza Calabresa","description":"Pizza de Calabresa.","is_enabled":true,"price":35,"restaurant_name":"Monte Belo","restaurant_id":3}
 {"index":{"_index":"dishes","_type":"dish","_id":25}}
 {"id":25,"name":"Pizza Atum","description":"Pizza de Atum.","is_enabled":true,"price":40,"restaurant_name":"Monte Belo","restaurant_id":3}
+
+//Habib's
+{"index":{"_index":"restaurants","_type":"restaurant","_id":4}}
+{"id":4,"name":"Habib's","description":"Esfirras deliciosas.","food_type":"LAN","is_enabled":true,"is_online":false,"delivery_fee":5,"delivery_time":35,"evaluation_rate":4.9}
 {"index":{"_index":"dishes","_type":"dish","_id":26}}
 {"id":26,"name":"Esfirra de Carne","description":"Carne temperada com limão, tomate, tahine, cebola e tempero especial.","is_enabled":true,"price":1,"restaurant_name":"Habib's","restaurant_id":4}
 {"index":{"_index":"dishes","_type":"dish","_id":27}}
 {"id":27,"name":"Esfirra de Queijo","description":"Queijo minas fresco e uma pitada de salsa.","is_enabled":true,"price":2,"restaurant_name":"Habib's","restaurant_id":4}
+
+//Mc'Donalds
+{"index":{"_index":"restaurants","_type":"restaurant","_id":5}}
+{"id":5,"name":"Mc'Donalds","description":"Best buger in town.","food_type":"LAN","is_enabled":false,"is_online":true,"delivery_fee":2,"delivery_time":45,"evaluation_rate":3.0}
 {"index":{"_index":"dishes","_type":"dish","_id":28}}
 {"id":28,"name":"Big Mac","description":"Dois hamburgueres, alface, queijo, molho especial, cebola, picles num pão com gergilim.","is_enabled":true,"price":19,"restaurant_name":"Mc'Donalds","restaurant_id":5}
 {"index":{"_index":"dishes","_type":"dish","_id":29}}
