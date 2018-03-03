@@ -1,0 +1,22 @@
+{"index":{"_index":"dishes","_type":"dish","_id":20}}
+{"id":20,"name":"Hot Roll - Kani","description":"Enrolado empanado com Kani","is_enabled":true,"price":7,"restaurant_name":"China in Box","restaurant_id":1}
+{"index":{"_index":"dishes","_type":"dish","_id":21}}
+{"id":21,"name":"Camarão Empanado","description":"Camarão empanado e sequinho.","is_enabled":true,"price":35,"restaurant_name":"China in Box","restaurant_id":1}
+{"index":{"_index":"dishes","_type":"dish","_id":22}}
+{"id":22,"name":"Pizza Calabresa","description":"Pizza de Calabresa.","is_enabled":true,"price":28,"restaurant_name":"Pizza Hut","restaurant_id":2}
+{"index":{"_index":"dishes","_type":"dish","_id":23}}
+{"id":23,"name":"Pizza Mussarela","description":"Pizza de Mussarela.","is_enabled":true,"price":28,"restaurant_name":"Pizza Hut","restaurant_id":2}
+{"index":{"_index":"dishes","_type":"dish","_id":24}}
+{"id":24,"name":"Pizza Calabresa","description":"Pizza de Calabresa.","is_enabled":true,"price":35,"restaurant_name":"Monte Belo","restaurant_id":3}
+{"index":{"_index":"dishes","_type":"dish","_id":25}}
+{"id":25,"name":"Pizza Atum","description":"Pizza de Atum.","is_enabled":true,"price":40,"restaurant_name":"Monte Belo","restaurant_id":3}
+{"index":{"_index":"dishes","_type":"dish","_id":26}}
+{"id":26,"name":"Esfirra de Carne","description":"Carne temperada com limão, tomate, tahine, cebola e tempero especial.","is_enabled":true,"price":1,"restaurant_name":"Habib's","restaurant_id":4}
+{"index":{"_index":"dishes","_type":"dish","_id":27}}
+{"id":27,"name":"Esfirra de Queijo","description":"Queijo minas fresco e uma pitada de salsa.","is_enabled":true,"price":2,"restaurant_name":"Habib's","restaurant_id":4}
+{"index":{"_index":"dishes","_type":"dish","_id":28}}
+{"id":28,"name":"Big Mac","description":"Dois hamburgueres, alface, queijo, molho especial, cebola, picles num pão com gergilim.","is_enabled":true,"price":19,"restaurant_name":"Mc'Donalds","restaurant_id":5}
+{"index":{"_index":"dishes","_type":"dish","_id":29}}
+{"id":29,"name":"Quarterão","description":"Um hamburguer feito com carne bovina, envolvido com duas fatias de queijo e temperado com Katshup.","is_enabled":true,"price":19,"restaurant_name":"Mc'Donalds","restaurant_id":5}
+{"index":{"_index":"dishes","_type":"dish","_id":30}}
+{"id":30,"name":"Big Tasty","description":"Um hamburguer enorme, 3 deliciosas fatias de queijo, tomate, alface crocante, cebola e molho especial.","is_enabled":true,"price":26,"restaurant_name":"Mc'Donalds","restaurant_id":5}
